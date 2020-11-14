@@ -1,1 +1,2 @@
-# fm_engine
+# A FM-Synthesis Engine in python
+
