@@ -121,4 +121,4 @@ carrier *= envelope(t, 0.0001, 0.001, 0.001, 0.5, 1)
 # OUTPUT
 
 # play_shit(sound1.astype(np.float32), bitrate, volume=0.4)
-play_shit(sound2.astype(np.float32), bitrate, volume=0.2)
+# play_shit(sound2.astype(np.float32), bitrate, volume=0.2)

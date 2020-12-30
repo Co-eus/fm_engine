@@ -16,7 +16,7 @@ def envelope(t, attack, decay, sustain, release, shape = 2):
     rise = np.clip((1/attack) * t, 0, 1)
     release = np.clip(-(1/release) * t + attack * (1/release),-1, 0)
 
-    return (rise+release)**shape
+    return (rise+release)**np.clip(shape,0,4)
 
 
 def oscillator(t, frequency = [440], phase = [0], mod = 0.5, type = 'sin'):
